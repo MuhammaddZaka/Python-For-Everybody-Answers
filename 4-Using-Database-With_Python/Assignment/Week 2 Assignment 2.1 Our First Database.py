@@ -43,10 +43,10 @@ cursor.execute('''
 cursor.execute('''DELETE FROM Ages''')
 
 # Insert users
-cursor.execute('''INSERT INTO Ages (name, age) VALUES ('Mara', 28)''')
-cursor.execute('''INSERT INTO Ages (name, age) VALUES ('Otto', 33)''')
-cursor.execute('''INSERT INTO Ages (name, age) VALUES ('Fyn', 31)''')
-cursor.execute('''INSERT INTO Ages (name, age) VALUES ('Neshawn', 17)''')
+cursor.execute('''INSERT INTO Ages (name, age) VALUES ('Mara', 34)''')
+cursor.execute('''INSERT INTO Ages (name, age) VALUES ('Otto', 28)''')
+cursor.execute('''INSERT INTO Ages (name, age) VALUES ('Fyn', 40)''')
+cursor.execute('''INSERT INTO Ages (name, age) VALUES ('Neshawn', 39)''')
 
 #Select user
 cursor.execute('''SELECT hex(name || age) AS X FROM Ages ORDER BY X''')
